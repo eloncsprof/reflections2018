@@ -1,0 +1,29 @@
+#Question 1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Shows the areas / lines of code that were removed from or added to the second file from the first.
+
+#Question 2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Can easily review changes and gain an understanding of why thing changed over time. It can also reduce the need for a long
+descriptive document of changes within the file as the history in maintained.
+
+#Question 3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros are by choosing when to commit you can insure that each commit contains a logical unit of work. The cons is that it requires
+discipline by the developer to make the commit.
+
+#Question 4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Each system has a different focus or usage type. Git is for developing software systems with many source code files that typically are related or have dependencies with each other. A change will usually involve multiple files / dependencies. Git doc on the other hand is typically a single file that stands alone in its entirety.
+
+#Question 5: How can you use the commands git log and git diff to view the history of files?
+git log to see the history of commits. git diff to compare the actual changes made between the two commits.
+
+#Question 6: How might using version control make you more confident to make changes that could break something?
+I know that I have a guarenteed recovery point so any bugs that I introduce can be automatically removed by checking out a previous version.
+
+#Question 7: Now that you have your workspace set up, what do you want to try using Git for?
+I would like to use git for students to be able to develop using Git for the fall 2018 semester in csc462.
+
+
+
+
+
+
+
