@@ -1,0 +1,7 @@
+Question: What happens when you initialize a repository? Why do you need to do it?
+A folder/directory called .git is created. This folder will keep the meta data of each change committed.
+
+Question: How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area holds files that can be committed where working directory holds files that are not ready to be committed. You 
+must add a file to the staging area from the working directory before it can be committed to repository.
+
